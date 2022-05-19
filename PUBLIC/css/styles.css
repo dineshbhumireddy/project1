@@ -1,0 +1,57 @@
+body{
+  background-color:lightgreen;
+}
+.box1,.box3,.box5{
+  display: flex;
+  background-color: lightgrey;
+  width: 20%;
+  margin:15% 40% 0;
+  justify-content: center;
+}
+.box2{
+  float: right;
+  position: relative;
+  bottom: 60%;
+  right: 10%;
+}
+.box4{
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  left: 38%;
+  top: 10px;
+}
+td{
+  border: 2px solid;
+  color: blue;
+  position: relative;
+  left:550px;
+}
+.welcome-msg{
+  position: relative;
+  left:40%;
+  color:darkviolet;
+  font-size: 20px;
+}
+.box7{
+width: 20%;
+padding: 20px;
+background-color: lightgrey;
+justify-content: center;
+}
+.profile{
+  width:200px;
+  height: 200px;
+}
+.del{
+  width: 20%;
+  height: 30%;
+  background-color: lightpink;
+  position: relative;
+  top: 300px;
+  left: 500px;
+}
+#log-del{
+  position: relative;
+  left:100px;
+}
